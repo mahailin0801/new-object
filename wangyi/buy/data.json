@@ -1,0 +1,157 @@
+{
+	"nav":[
+				{
+					"h3":"全部手机",
+					"li1":"HUAWEI MTA系列",
+					"li2":"HUAWI MATA系列",
+					"li3":"HUAWEI MATA系列",
+					"li4":"HUAWI MATA系列",
+					"li5":"HWEI MATA系列",
+					"pic1":"f-s.png",
+					"pic2":"f-s2.png",
+					"pic3":"f-s3.png",
+					"pic4":"f-s4.png",
+					"pic5":"f-s5.jpg",
+					"det1":"HUAWEI MATA20",
+					"money":"3999"
+				},
+				{
+					"h3":"全部电脑",
+					"li1":"HUAWEI MTA系列",
+					"li2":"HUAWI MATA系列",
+					"li3":"HUAWEI MATA系列",
+					"pic3":"f-s3.png",
+					"pic4":"f-s4.png",
+					"pic5":"f-s5.jpg",
+					"det1":"HUAWEI MATA20",
+					"money":"3999"
+				}
+			],
+	"detil":[
+			{	
+				"id":"1",
+				"pic1":"in1.png",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"2",
+				"pic1":"in2.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+			},
+			{	
+				"id":"3",
+				"pic1":"in3.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"4",
+				"pic1":"in4.png",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"到货通知",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"5",
+				"pic1":"in5.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"6",
+				"pic1":"in6.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"到货通知",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"7",
+				"pic1":"in7.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"8",
+				"pic1":"in8.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"到货通知",
+				"det1":"135人评价"
+			},
+			{	
+				"id":"9",
+				"pic1":"in9.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"10",
+				"pic1":"in10.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"11",
+				"pic1":"in11.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"到货通知",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"12",
+				"pic1":"in12.png",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"13",
+				"pic1":"in13.jpg",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"选购",
+				"det1":"135人评价"
+				
+			},
+			{	
+				"id":"14",
+				"pic1":"in14.png",
+				"li":"HUAWEI MATA 20 ERTS BYU FO WBO专用",
+				"money":"299",
+				"sele":"到货通知",
+				"det1":"135人评价"
+				
+			}
+		]
+
+}

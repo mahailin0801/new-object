@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--<link rel="stylesheet" href="font/iconfont.css">-->
+	</head>
+	<body>
+		
+	<!--header-->
+		<div class="head-background">
+			<div class="head_center">
+				<div class="main-logo adHeadPicContainer" style="width:143px"> 
+					<img src="https://hwid1.vmall.com/CAS/up/idmw_rss_23/logos/head-top.png" class="wihteBgPic"> 
+				</div> 
+				<div class="website-name"> 
+					<b style="font-size: 18px;margin-top: -5px;float: left;color:#cccccc;">|</b> 
+					<b style="font-size: 18px;margin-top: -3px;float: left; margin-left:18px;">华为商城</b> 
+				</div>
+			</div>
+		</div>
+	
+	<!--section-->
+		<div class="wp1 relative">
+			<div class="register-content" id="registerForm">
+				<div class="reg-tab clearFix" id="hg" style="visibility: visible;">
+					<a class="phone-wrap l sel" href="javascript:void(0)"> <i class="phone-icon"></i>
+						<span id="tabPhone" class="tab-phone" style="width: 66px;">手机号</span>
+					</a>
+					<a class="mail-wrap l" href="javascript:void(0)"> <i class="mail-icon"></i>
+						<span id="tabMail" class="tab-email" style="width: 66px;">电子邮箱</span>
+					</a>
+				</div>
+				<div class="login r">
+					已有华为帐号<a href="" class="login-a" title="登录">登录</a>
+					<span class="ar-eg-opposite">&gt;</span>
+				</div>
+				
+				<div class="reg-detail">
+				<!-- 选择国家开始 -->
+					<div class="input-container" id="chooseCountry">
+						<div class="l input-left">国家/地区</div>
+						<div class="input-content" style="margin-left: 123px;">
+							<div class="node-input ddrop-EMU5" id="selectCountryImg" style="overflow: visible;">
+								<input type="hidden" value="1-cn">
+								<span class="select-text ar-eg">中国</span>
+								<span class="suffix" style="color: rgb(51, 51, 51);"></span>
+								<div class="select-ico"></div>
+								<ul class="dpmenu-EMU5 dpmenu-EMUI5-down" style="overflow-y: scroll;outline: none; min-width: 156px; max-width: 310px; width: 183px; display: none;" tabindex="0">
+									<div class="flow-top"></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="7-al">阿尔巴尼亚</li>
+									<div class="uc-line" style="width:151px"><div></div></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="5-dz">阿尔及利亚</li>
+									<div class="uc-line" style="width:151px"><div></div></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="5-af">阿富汗</li>
+									<div class="uc-line" style="width:151px"><div></div></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="5-ar">阿根廷</li>
+									<div class="uc-line" style="width:151px"><div></div></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="5-ae">阿拉伯联合酋长国</li>
+									<div class="flow-top"></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="7-al">阿尔巴尼亚</li>
+									<div class="uc-line" style="width:151px"><div></div></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="5-dz">阿尔及利亚</li>
+									<div class="uc-line" style="width:151px"><div></div></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="5-af">阿富汗</li>
+									<div class="uc-line" style="width:151px"><div></div></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="5-ar">阿根廷</li>
+									<div class="uc-line" style="width:151px"><div></div></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="5-ae">阿拉伯联合酋长国</li>
+								</ul>
+							</div>
+							<div id="selectedCountry" style="display: none;">中国</div>
+
+						<!-- 提示正在登陆的帐号 -->
+							<div id="regXCountry" class="node-intro" style="display: none;">您正在注册中国的华为帐号。</div>
+						</div>
+					</div>
+					
+				<!--手机号码 -->
+					<div class="input-container" id="phoneInputDiv-box">
+						<div class="l input-left">
+							<input id="countryCode" type="hidden" name="" autocomplete="off" value="0086">
+							<div id="input_languageCode" class="ddrop-EMU5" style="overflow: visible;">
+								<input type="hidden" value="0086">
+								<span class="select-text ar-eg">+86(中国)</span>
+								<span class="suffix" style="color: rgb(51, 51, 51);"></span>
+								<div class="select-ico select-ico-gray"></div>
+								<ul class="dpmenu-EMU5 dpmenu-EMUI5-down" style="display: none; width: 136px;">
+									<div class="flow-top"></div>
+									<li class="dropListEMUI5_li ar-eg" data-value="0086">+86(中国)</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="r input-right"></div>
+						<div class="input-content">
+							<label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 10px;" for="username">
+								<div style="border: none;outline: none; background: transparent; cursor: text; margin: 2px; color: rgb(204, 204, 204);" tabindex="-1" class="text input-number">请输入手机号</div>
+							</label>
+							<input id="username" class="text input-number" type="text" maxlength="50" style="z-index: 1;">
+						</div>
+					</div>
+					<div id="msg_phone"></div>
+					
+					<div class="input-container" id="randomCodeDiv">
+						<div class="l input-left">图形验证码</div>
+						<div class="r input-right">
+							<img style="height: 40px; width: 100px;" class=" randomCodeImg" src="https://hwid1.vmall.com/Captcha/authCodeImage?session_code_key=p_reg_login_websso_session_ramdom_code_key" id="randomCodeImg" alt="验证码" onclick="chgRandomCodeForReset();" onload="if(this.src.indexOf('loading.gif')==-1){this.style.width='100px'}" onerror="this.style.width='40px';this.src='https://hwid1.vmall.com/CAS/up/idmw_rss_23/css/mobile/standard_rss/images/loading.gif?cas20180928';"> <b id="authCodeRight" class="authCodeRightPosFix" datavalue="false"></b>
+						</div>
+						<div class="input-content">
+							<label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 10px;" for="randomCode">
+								<div style="border: none;outline: none; background: transparent; cursor: text; margin: 2px; color: rgb(204, 204, 204);" tabindex="-1" class="text">请输入图形验证码</div>
+							</label>
+							<input id="randomCode" maxlength="4" tabindex="2" class="text" type="text" name="formBean.randomCode" autocomplete="off" validator="validator11540821323756" style="z-index: 1;">
+						</div>
+					</div>
+
+					<div id="randomCode_msg"></div>
+						<div class="input-container" id="errRandomCode-box">
+							<div class="l input-left">短信验证码</div>
+							<div class="r input-right">
+							<input type="button" class="get-code dbtn2" autocomplete="off" id="getValiCode" intervaltime="60" onclick="getMobileCode(4,'p_reg_phone_session_ramdom_code_key',26,'zh')" value="获取验证码"> 
+							<span id="msg_getPhoneRandomCode" style="position: relative; top: 34px;"></span>
+						</div>
+						<div class="input-content">
+							<label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 10px;" for="authCode">
+								<div style="border: none; background: transparent; cursor: text;outline: none; margin: 2px; color: rgb(204, 204, 204);" tabindex="-1" class="verify vam ime-disabled text">请输入短信验证码</div>
+							</label>
+							<input type="text" autocomplete="off" class="verify vam ime-disabled text" id="authCode" tabindex="3" style="vertical-align: middle; z-index: 1;" name="formBean.authCode" maxlength="8" validator="validator51540821323768">
+						</div>
+					</div>
+					<div id="msg_phoneRandomCode"></div>
+
+			<!-- 设置密码 -->
+				<div class="set-password">
+					<div class="input-container" id="pwdDiv">
+						<div class="l input-left">密码</div>
+						<div class="input-content">
+							<label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 10px;" for="password">
+								<div style="border: none; background: transparent; cursor: text;outline: none; margin: 2px; color: rgb(204, 204, 204);" tabindex="-1" class="pwd-input text">请输入密码</div>
+							</label>
+							<input oncut="return false;" oncopy="return false" type="password" autocomplete="off" class="pwd-input text" id="password" name="formBean.password" maxlength="32" tabindex="4" validator="validator31540821323767" style="z-index: 1;">
+						</div>
+					</div>
+					<div id="msg_password"></div>
+					<div id="pwd_check_dialog">
+						<div class="mes">
+							<h3>密码需满足一下条件</h3>
+							<ul class="ony">
+								<li class="tb">√ &nbsp;不能包含空格</li>
+								<li class="mous">√ &nbsp;至少包含八个字符</li>
+								<li class="wp">√ &nbsp;至少包含数字、字母、符号中的2种</li>
+							</ul>
+							<p>密码强度</p>
+							<i class="oi"></i>
+						</div>
+					</div>
+
+					<div class="input-container " id="confirmpwdDiv">
+						<div class="l input-left">确认密码</div>
+						<div class="input-content">
+							<label class="lb_opacity_Class" style="display: block; position: absolute; cursor: text; float: left; z-index: 2; padding-left: 0px; padding-top: 10px;" for="confirmPwd">
+								<div style="border: none;outline: none; background: transparent; cursor: text; margin: 2px; color: rgb(204, 204, 204);" tabindex="-1" class="text vam">请再次输入密码</div>
+							</label>
+							<input oncut="return false;" oncopy="return false" id="confirmPwd" type="password" autocomplete="off" class="text vam" name="checkPassword" maxlength="32" tabindex="5" validator="validator41540821323768" style="z-index: 1;">
+						</div>
+					</div>
+					<div id="msg_checkPassword"></div>
+					<div id="birthDateBox"></div>
+
+					<div class="reg-btn" align="center">
+						<input type="button" class="btn btn-reg sel" id="btnSubmit" value="注册" tabindex="7">
+						<div id="register_msg" style="position: relative; left: 26%;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="box-shadow"></div>
+			<input type="hidden" id="countryRegion" value="1-cn">
+			<div id="selectCountryCodeDiv"></div>
+			<div id="notCurrentSiteWarning"></div>
+		<!-- 底部  -->
+				<style>
+				.selectCountryImg {
+				    display: block;
+				    width: 30px;
+				    height: 30px;
+				    background: url("https:&#x2F;&#x2F;hwid1.vmall.com&#x2F;CAS&#x2F;up&#x2F;idmw_rss_23&#x2F;css&#x2F;mobile&#x2F;standard_rss&#x2F;images&#x2F;down.png?cas20180928") no-repeat;
+				    background-position-y: 12px;   
+				}
+				</style>
+				<div class="wp1 ft">
+					<div class="reg-content">
+						<p class="footer">
+							<a id="foot_EULA" href="#" class="rule" target="_blank">华为帐号用户协议</a>
+							<em class="foot_em">|</em>
+							<a id="foot_privacy" href="#" class="rule" target="_blank">关于华为帐号与隐私的声明</a>
+							<span id="faqPart" class="foot_em"><em style="font-style: normal">|</em> <a style="padding:0 10px;" target="blank" href="">常见问题</a></span>
+						</p>
+						<p id="copyrightPart" class="footer">Copyright&nbsp;©&nbsp;2011-2018&nbsp;&nbsp;华为软件技术有限公司&nbsp;&nbsp;版权所有&nbsp;&nbsp;保留一切权利&nbsp;&nbsp;苏B2-20070200号&nbsp;|&nbsp;苏ICP备09062682号-9</p>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</body>
+</html>
+
+<script src="jquery-1.11.1.min.js"></script>
+<script src="ajax.js"></script>
+<script src="denglu.js"></script>
+<script src="cookie.js"></script>

@@ -1,0 +1,643 @@
+/*全局样式*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0;}
+body{font-family:'微软雅黑';}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+ul,ol,li{list-style:none;}
+a,u{text-decoration:none;}
+b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+img{border:0;display:block;}
+.clear_fix:after{content:'.';clear:both;height:0;overflow: hidden;display:block;visibility:hidden;}
+.clear_fix{zoom:1;}
+
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+/*header*/
+header{
+	width: 100%;
+}
+.h-rd{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+.h-rd .h-cup li{
+	float: left;
+}
+.h-rd .h-cup li a{
+	font-size: 12px;
+	display: block;
+	color: #a4a4a4;
+	float: left;
+	padding: 0 7px;
+	border-right: 1px solid #a4a4a4;
+	margin-top: 7px;
+}
+.h-rd .h-cup .clear_fix{
+	padding-left: 0;
+}
+.h-rd .h-cup .clear_bod{
+	border-right:none;
+}
+.h-cup li a:hover{
+	color: #cf0a2c;
+}
+
+
+.h-rd .h-cup .add-m{
+	width: 160px;
+	height:150px;
+	background: #fff;
+	position: absolute;
+	left: 375px;
+	top: 30px;
+	box-shadow: 2px 3px 5px #CCCCCC;
+	display: none;
+}
+.h-rd .h-cup .mak:hover{
+	height: 30px;
+	background: #fff;
+}
+.h-rd .h-cup .mak:hover .add{
+	border: none;
+}
+#pic{
+	margin: 37px 42px ;
+}
+.h-rd .h-cup #bet-ls{
+	width: 160px;
+	height:150px;
+	background: #fff;
+	position: absolute;
+	left: 437px;
+	top: 30px;
+	box-shadow: 2px 3px 5px #CCCCCC;
+	display: none;
+}
+ #bet-ls p{
+ 	text-align: center;
+ }
+ #bet-ls p a{
+ 	line-height: 30px;
+	border: none;
+	font-size: 12px;
+	color: #3a3a3a;
+}
+ #bet-ls p a:hover{
+ 	color: #cf0a2c;
+ }
+
+.h-rd .h-cup .mak:hover{
+	height: 30px;
+	background: #fff;
+	box-shadow: 1px 2px 2px #CCCCCC;
+}
+.h-rd .h-cup .mak:hover .clear_bod{
+	border: none;
+}
+
+.h-st{
+	float: right;
+	width: 250px;
+	height: 30px;
+	line-height: 30px;
+}
+.h-st li a{
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: #a4a4a4;
+	height: 12px;
+	line-height: 12px;
+	padding:0 7px;
+	border-right: 1px solid #CCCCCC;
+	margin-top: 7px;
+}
+.h-st li .clearfix{
+	border: none;
+	padding-right: 0;
+}
+.h-st li a:hover{
+	color: #cf0a2c;
+}
+.h-st li .spec{
+	color: #cf0a2c;
+}
+#pics{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin-right: 8px;
+}
+
+.h-idu{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.h-logo{
+	width: 270px;
+	height: 100%;
+	float: left;
+}
+.h-idu .h-nav li{
+	line-height: 70px;
+	font-size: 16px;
+	float: left;
+	padding:0 10px;
+}
+.h-idu .h-nav li a{
+	color: #3a3a3a;
+	padding: 5px 0;
+}
+.h-idu .h-nav li a:hover{
+	color: #cf0a2c;
+	border-bottom: 1px solid #cf0a2c;
+}
+.h-sch{
+	width: 330px;
+	height: 100%;
+	float: right;
+	line-height: 70px;
+}
+.s-box{
+	width: 330px;
+	height: 32px;
+	float: right;
+	line-height: 70px;
+	position: relative;
+}
+.seach{
+	width:330px;
+	height: 30px;
+	outline: none;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+}
+.mata{
+	float: left;
+	width: 100px;
+	height: 17px;
+	line-height: 17px;
+	position: absolute;
+	left: 10px;
+	top: 28px;
+	font-size: 12px;
+	color: #a4a4b5;
+	background: #f5f5f5;
+}
+.p9{
+	float: left;
+	width: 100px;
+	height: 17px;
+	line-height: 17px;
+	position: absolute;
+	left: 122px;
+	top: 28px;
+	font-size: 12px;
+	color: #a4a4b5;
+	background: #f5f5f5;
+}
+.fd{
+	float: left;
+	width: 17px;
+	height: 16px;
+	line-height: 17px;
+	position: absolute;
+	left: 300px;
+	top: 28px;
+	font-size: 12px;
+	color: #a4a4b5;
+	background: #f5f5f5;
+}
+
+
+.hide-nav{
+	width: 100%;
+	height: 260px;
+	background: #fff;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	border-top: 1px solid #CCCCCC;
+	box-shadow:1px 2px 3px #CCCCCC;
+	display: none;
+}
+.sml{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.mat-ph{
+	height: 40px;
+	line-height: 40px;
+}
+.mat-ph h3{
+	font-size: 14px;
+	color: #403933;
+	float: left;
+}
+.mat-ph h3:hover{
+	color: #cf0a2c;
+	cursor: pointer;
+}
+.phone li a{
+	float: left;
+	margin-left: 23px;
+	font-size: 13px;
+	color: #eaeaea;
+}
+.phone li a:hover{
+	color: #cf0a2c;
+}
+.f-show{
+	margin-top: 20px;
+	height: 175px;
+	width: 100%;
+}
+.f-show li{
+	width: 142px;
+	height: 100%;
+	margin: 0 10px;
+	float: left;
+}
+.f-show .info-lx{
+	display: block;
+	width:142px;
+	height: 142px;
+}
+.exp{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+	color: #38383a;
+	cursor: pointer;
+}
+.money{
+	font-size: 14px;
+	text-align: center;
+	color: #cf0a2c;
+}
+.f-show li:hover .exp a{
+	color: #cf0a2c;
+}
+.yin{
+	widows: 100%;
+	height: 6px;
+	background: url(../images/pi.jpg) repeat-x;
+}
+
+/*section*/
+section{
+	width: 100%;
+	height: auto;
+}
+.m-item{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.info-tr{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.info-tr .inx{
+	font-size: 12px;
+	color: #333333;
+	float: left;
+	margin-right: 13px;
+}
+.info-tr .mud{
+	float: left;
+	width: 5px;
+	height: 9px;
+	background: url(../images/jt.jpg) no-repeat;
+	margin-right: 13px;
+	margin-top: 11px;
+}
+.info-tr .book{
+	font-size: 12px;
+	color: #333333;
+	float: left;
+}
+.fe-le{
+	height: 101px;
+	width: 1198px;
+	border: 1px solid #CCCCCC;
+}
+.fe-le .f-al{
+	height: 50px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.diff{
+	margin-left: 50px;
+	height: 50px;
+	line-height: 50px;
+}
+.diff li{
+	font-size: 12px;
+	color:#999999 ;
+	margin-right: 20px;
+	float: left;
+	cursor: pointer;
+}
+.diff li:nth-child(1){
+	color: #3a3a3a;
+}
+.diff li:nth-child(2){
+	color: #e41d20;
+}
+
+
+.olst{
+	width: 100%;
+	height: auto;
+}
+.olst .lists{
+	margin-top: 20px;
+	width: 100%;
+}
+.lists li{
+	width: 222px;
+	height: 362px;
+	border: 1px solid #CCCCCC;
+	margin-right: 20px;
+	cursor: pointer;
+	text-align: center;
+	float: left;
+	margin-bottom: 20px;
+	position: relative;
+}
+ .lists .clear-mgr{
+	margin-right:0;
+}
+.lists .lit-pic{
+	float: left;
+	display: block;
+	width: 222px;
+	height:245px;
+}
+.lists .lit-pic img{
+	margin-top: 40px;
+	margin-left: 15px;
+	width: 200px;
+	height:180px;
+}
+.mt-til{
+	width: 175px;
+	text-align: center;
+	font-size: 12px;
+	margin-left: 22px;
+	line-height: 18px;
+}
+.mt-til a{
+	color: #666666;
+}
+.mt-til:hover a{
+	color: #e01d20;
+}
+.lists li span{
+	display: block;
+	font-size: 14px;
+	color: #e01d20;
+	padding-top: 10px;
+}
+
+.lists .dile{
+	margin-top: 21px;
+	height: 30px;
+	border-top: 1px solid #CCCCCC;
+}
+.lists .dile .sue{
+	display: block;
+	width: 110px;
+	height: 30px;
+	float: left;
+	background: #fff;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+.lists .dile .sue:hover{
+	background: #e01d20;
+}
+.lists .dile .sue:hover a{
+	color: #fff;
+}
+.lists .dile .sue a{
+	color: #e01d20;
+}
+.lists .dile .jus{
+	display: block;
+	width: 111px;
+	height: 30px;
+	float: left;
+	background: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+.hot{
+	position: absolute;
+	right: 12px;
+	top: 180px;
+}
+
+/*footer*/
+footer{
+	width: 100%;
+	height: auto;
+	background: #f0f0f0;
+	float: left;
+	margin-top: 78px;
+}
+.fot{
+	width: 1200px;
+	height: 458px;
+	margin: 0 auto;
+}
+
+/*xuanfu*/
+.hungBar {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    width: 48px;
+    z-index: 500;
+}
+.hungBar-top {
+	background-color: rgba(0,0,0,0.7);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 0;
+    display: inline-block;
+    color: #3a3a3a;
+}
+.fr, .right, .right-area {
+    float: right;
+}
+a {
+    cursor: pointer;
+}
+.hungBar-top i {
+	background: url(../images/icon-common.png);
+    background-position: -123px -1px;
+    width: 13px;
+    height: 7px;
+    margin-top: 16px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    margin: 8px auto 8px;
+}
+.hungBar-content:hover {
+    width: 130px;
+    background: transparent;
+}
+.hungBar-content {
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.hungBar-content:hover .hungBar-for-help:hover{
+	opacity: 1;
+}
+.hungBar-content .hungBar-for-help {
+    z-index: 3;
+}
+.hungBar-content a {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+.hungBar-for-help{
+	background-color: rgba(0,0,0,0.7);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 0;
+    display: inline-block;
+    color: #3a3a3a;
+}
+.hungBar-for-help:after {
+	background: url(../images/icon-common.png);
+    background-position: -80px -199px;
+}
+.hungBar-for-help:after, .hungBar-feedback:after, .hungBar-olcs-web:after {
+    display: none;
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 14px;
+    bottom: -20px;
+    left: 0;
+}
+.hungBar-for-help i {
+	background: url(../images/icon-common.png);
+    background-position: -166px -1px;
+}
+.hungBar-for-help i {
+    height: 18px;
+    width: 18px;
+    margin-top: 12px;
+}
+.hungBar-for-help i{
+    display: block;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    margin: 8px auto 8px;
+}
+a {
+    color: #3a3a3a;
+}
+.hungBar-content .hungBar-feedback {
+    z-index: 2;
+    right: 36px;
+}
+.hungBar-feedback{
+	transition: right .25s ease-out;
+    opacity: 0;
+}
+.hungBar-content a {
+    position: absolute;
+    top: 0;
+}
+.hungBar-feedback{
+	width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.hungBar-feedback:after {
+	background: url(../images/icon-common.png);
+    background-position: -40px -199px;
+}
+.hungBar-feedback i {
+	background: url(../images/icon-common.png);
+    background-position: -151px -1px;
+}
+.hungBar-feedback i {
+    height: 17px;
+    width: 15px;
+    margin-top: 12px;
+}
+.hungBar-feedback i{
+	
+	overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    margin: 8px auto 8px;
+    display: block;
+}
+.hungBar-content .hungBar-olcs-web {
+    right: 70px;
+}
+.hungBar-content .hungBar-{
+	transition: right .25s ease-out;
+    opacity: 0;
+}
+.hungBar-content a {
+    position: absolute;
+    top: 0;
+}
+.hungBar-{
+	background-color: rgba(0,0,0,0.7);
+	width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 0;
+}
+.hungBar-olcs-web i {
+	background: url(../images/icon-common.png);
+    background-position: -136px -1px;
+}
+.hungBar-olcs-web i {
+    height: 18px;
+    width: 15px;
+    margin-top: 10px;
+}
+.hungBar-olcs-web i{
+	display: block;
+	overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    margin: 8px auto 8px;
+}
+
